@@ -1,0 +1,75 @@
+body{
+    background-color: #f1fbff;
+}
+form{
+    background-color: white;
+    width: 500px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 84, 49);
+    text-shadow: rgb(61, 230, 165);
+}
+form{
+    border: 2px solid rgb(35, 240, 192);
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(35, 240, 192);
+    box-sizing: border-box;
+}
+img.avatar{
+    width: 40%;
+    border-radius: 20%;
+}
+.imgcontainer{
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.container{
+    padding: 20px;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:  rgb(35, 42, 240);
+}
+.cancelbtn :hover{
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -webkit-transition: all .4s ease;
+          -moz-transition: all .4s ease;
+          -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+button{
+    background-color: #3304aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%
+}
+button:hover{
+    opacity: 1;
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -webkit-transition: all .4s ease;
+          -moz-transition: all .4s ease;
+          -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+    
